@@ -7,7 +7,11 @@
 - [x] jQuery
 - [x] fontawesome
 - [ ] Bootstrap
+
+
 Demo``` https://qzwinitest-3.netlify.app ```
+
+
 ``` By Qzwini Tset ```
 
 
