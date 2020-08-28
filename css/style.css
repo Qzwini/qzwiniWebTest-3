@@ -1,0 +1,291 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.table {
+    height: 100%;
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+    vertical-align: middle;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-color {
+    color: #f7600e;
+}
+
+a {
+    color: #f7600e;
+    text-decoration: none;
+}
+
+.main-background {
+    background-color: #f7600e;
+}
+
+.overlay {
+    background-color: rgba(49, 55, 61, .4);
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-image: url(../images/Minimalist-Mac-Wallpapers-Wallpaper-Cave.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.header .navbar {
+    overflow: hidden;
+    /* position: absolute; */
+    padding: 20px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header .navbar .links {
+    float: right;
+}
+
+.header .navbar .links i {
+    margin-left: 5px;
+}
+
+.header .intro h1 {
+    margin: 0;
+    font-weight: 800;
+    cursor: default;
+}
+
+.header .intro p {
+    margin: 10px 0 40px;
+    line-height: 1.9;
+    cursor: default;
+}
+
+.header .buttons button {
+    background-color: transparent;
+    padding: 10px 20px;
+    width: 180px;
+    font-size: 14px;
+    border: 1px solid #909090;
+    color: #fff;
+    margin: 0 8px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out
+}
+
+.header .buttons button:hover {
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    cursor: pointer;
+}
+
+.header .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header .arrow i {
+    border: 2px solid #fefeff;
+    opacity: .5;
+    border-radius: 50px;
+    height: 40px;
+    width: 25px;
+    line-height: 44px;
+    cursor: pointer;
+}
+
+.header .arrow i:hover,
+.header .arrow :hover {
+    background-color: #f7600e;
+    border: 2px solid #f7600e;
+    line-height: 55px;
+    opacity: 1;
+    transition: width 2s;
+}
+
+.features {
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.features .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box {
+    display: inline-block;
+    width: 24%;
+    margin: auto;
+    text-align: center;
+}
+
+.box i {
+    font-size: 200%;
+    border: 2px solid #f7600e;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    cursor: pointer;
+    color: #f7600e;
+}
+
+.box h3 {
+    text-transform: uppercase;
+    color: #666;
+    font-weight: normal;
+    cursor: default;
+}
+
+.box p {
+    color: #888;
+    line-height: 2;
+    cursor: default;
+}
+
+.box i:hover {
+    background-color: #f7600e;
+    color: #fff;
+}
+
+.subscribe {
+    background: url(../images/3b1e3b7abecd697bf8af2cb40cde69b3.png);
+    background-size: cover;
+}
+
+.subscribe form {
+    padding: 100px 0;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.subscribe form input[type="email"] {
+    padding: 0 10px;
+    width: 320px;
+    font-size: 15px;
+    border-radius: 10px;
+    position: relative;
+    /* top: 2px; */
+    border: none;
+    color: #f7600e;
+    height: 37px;
+    line-height: 37px;
+}
+
+.subscribe form button {
+    padding: 0 10px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 2px;
+    border: 1px solid #fff;
+    background-color: #f7600e;
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+    height: 37px;
+    line-height: 37px;
+}
+
+.team {
+    padding: 50px 0;
+    cursor: default;
+}
+
+.team .my-team .person {
+    margin-top: 100px;
+    padding: 15px;
+    width: 20%;
+    display: inline-block;
+    position: relative;
+}
+
+.team .my-team .person:hover {
+    /* border: 1px solid #f7600e; */
+    border-radius: 10px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.51);
+}
+
+.team .my-team .social-icon i {
+    color: #555555;
+    margin: 0 5px;
+}
+
+.team .my-team .social-icon i:hover {
+    color: #f7600e;
+    cursor: pointer;
+}
+
+.team .my-team p {
+    margin-top: 20px;
+    color: #666666;
+    text-transform: none;
+}
+
+
+/*------ Banner ------*/
+
+.footer__banner {
+    color: #fff;
+    background: #262C33;
+    border-radius: 10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 0em 4em 1em 4em;
+    padding: 1.5em 2em;
+}
+
+.footer__banner__container {
+    width: 50%;
+}
+
+.footer__banner button {
+    padding: 0 10px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 2px;
+    border: 1px solid #fff;
+    background-color: #f7600e;
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+    height: 37px;
+    line-height: 37px;
+}
